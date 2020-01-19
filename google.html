@@ -10,13 +10,14 @@
         .searchbar {
             padding-top: 20px;
         }
-        input:type="search" {
-            width: 300px;
-        }
         button {
             margin: 20px;
             margin-left: 2.5px;
             margin-right: 2.5px;
+        }
+        #site-search {
+            width: 350px;
+            height: 30px;
         }
         </style>
     </head>
@@ -26,8 +27,10 @@
         <div class="searchbar">
             <label for="site-search"> </label>
             <input type="search" id="site-search"><br />
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <label for="search"></label>
+            <button id="search">Google Search</button>
+            <label for="lucky"></label>
+            <button id="lucky">I'm Feeling Lucky</button>
         </div>
         </div>
 
